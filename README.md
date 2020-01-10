@@ -1,2 +1,2 @@
 # yangjan-fun.github.io
-My page will be fun!
+My webpage will be fun!

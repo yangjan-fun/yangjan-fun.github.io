@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset='utf-8'/>
+    <title> </title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
   </head>
   <body>
+    <h1 id="label"></h1>
+      <p>There are currently <span id="users"></span> users on Data USA.</p>
+    <script>
+      var data=[];
+
+      function convert2numbers(d, i){
+        d.value= +d.value;
+      }
+      function drawLabel() {
+        d3.select("#label").html(data[0].value)
+      }
+
+      function analyzeData(error,newData){
+        data.forEach(convert2numbers);
+        console.log("error:", error);
+        console.log("data:", data); 
+        data= newData;
+        drawLabel(); 
+      
+      }
+      d3.json("data.json",analyzeData);
+      var url = "https://datausa.io/api/data?drilldowns=State&measures=Population&year=latest";
+      //d3.csv("data.csv",analyzeData);
+      d3.json(url,function(error,data){
+        console.log(data);
+      });
+     
+      var realtimeURL = "https://whiteboard.datawheel.us/api/google-analytics/realtime/111999474";
+      var frequency = 10 * 1000; //10 sec
+
+      function fetchData(){
+        d3.json(realtimeURL, function(error,users){
+          console.log("users",users);
+          d3.select("#users").html(users);
+
+        });
+      }
+      fetchData();
+      setInterval(fetchData, frequency);
+
+    </script>
+
     <div id="container">
-	<div id="header">
-        	<h1 id="greeting">HELLO DAVE</h1>
-      	</div>
-	<div id="body">
-        
+	    <div id="header">
+        <h1 id="greeting">HELLO DAVE</h1>
+      </div>    
     </div>
   </body>
 </html>

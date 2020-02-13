@@ -1,0 +1,8 @@
+[
+{"Continent":"Asia","freq":{"low":1104, "mid":3083, "high":414}},
+{"Continent":"Africa","freq":{"low":536, "mid":733, "high":39}},
+{"Continent":"Europe","freq":{"low":120, "mid":493, "high":134}},
+{"Continent":"South America","freq":{"low":107, "mid":286, "high":34}},
+{"Continent":"North America","freq":{"low":66, "mid":242, "high":59}},
+{"Continent":"Oceania","freq":{"low":10, "mid":27, "high":5}}
+]

@@ -17,6 +17,14 @@ html, body{
     margin: 30px 60px;
 }
 
+p {
+    margin: 30px 10px;
+}
+
+h1 {
+    color: #377eb8;
+}
+
 
 path { stroke: #fff; }
 path:hover { opacity:0.9; }
@@ -34,8 +42,8 @@ rect:hover { fill:whitesmoke; }
 }
 .x.axis path { display: none; }
 
-.legend tr{ border-bottom:1px solid grey; }
-.legend tr:first-child{ border-top:1px solid grey; }
+.legend tr{ border-bottom:1px solid #fff; }
+.legend tr:first-child{ border-top:1px solid #fff; }
 .legend{
     margin-left:60px;
     margin-bottom:80px;

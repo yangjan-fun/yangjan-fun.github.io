@@ -1,13 +1,7 @@
-html {
-    width: 1280px;
+html, body {
+    width: 100%;
     margin: 40px;
   
-}
-
-body {
-    display:inline-block;
-    margin: auto;
-
 }
 
 #header {

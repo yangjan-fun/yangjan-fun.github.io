@@ -8,7 +8,7 @@ html, body {
 
 }
 
-#header {
+.header {
   width: 100%;
   margin: 0px;
   text-align: center;
@@ -17,7 +17,15 @@ html, body {
   color: whitesmoke;
 }
 
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
 #intro {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   margin: 0px;
   padding-left: 80px;
   padding-right: 80px;
@@ -28,6 +36,9 @@ html, body {
 }
 
 #container {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
   display: flex;
   flex-direction: column;
   height: 100vh;

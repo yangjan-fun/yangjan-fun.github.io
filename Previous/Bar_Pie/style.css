@@ -1,6 +1,6 @@
 html, body {
     margin: 40px 30px;
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 #header {
@@ -8,7 +8,7 @@ html, body {
 }
 
 #ShowBARdiv {
-    margin: 30px 80px;
+    margin: 30px 60px;
     align-content:center
 }
 

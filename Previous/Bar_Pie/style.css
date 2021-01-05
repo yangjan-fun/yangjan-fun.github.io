@@ -5,16 +5,16 @@ html, body{
 }
 
 #header {
-    margin: 30px 80px;
+    margin: 30px 60px;
 }
 
 #ShowBARdiv {
-    margin: 30px 100px;
+    margin: 30px 80px;
     align-content:center
 }
 
 #footer {
-    margin: 30px 80px;
+    margin: 30px 60px;
 }
 
 path { stroke: #fff; }

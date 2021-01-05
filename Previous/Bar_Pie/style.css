@@ -43,7 +43,7 @@ rect:hover { fill:whitesmoke; }
 .legend tr{ border-bottom:1px solid #fff; }
 .legend tr:first-child{ border-top:1px solid #fff; }
 .legend{
-    margin-left:80px;
+    margin-left:120px;
     margin-bottom:80px;
     display:inline-block;
     border-collapse: collapse;

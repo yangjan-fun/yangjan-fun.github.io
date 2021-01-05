@@ -1,7 +1,19 @@
 html, body{
     width: 1280px;
-    margin: 20px auto;
+    margin: 20px;
   
+}
+
+header {
+    margin: 10px 20px;
+}
+
+#ShowBARdiv {
+    margin: 5px 20px;
+}
+
+footer {
+    margin: 10px 20px;
 }
 
 path { stroke: #fff; }

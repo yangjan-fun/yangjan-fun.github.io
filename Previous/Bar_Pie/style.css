@@ -1,5 +1,6 @@
 html, body {
     margin: 40px 30px;
+    padding: 0px 10px;
 }
 
 #header {
@@ -43,7 +44,7 @@ rect:hover { fill:whitesmoke; }
 .legend tr{ border-bottom:1px solid #fff; }
 .legend tr:first-child{ border-top:1px solid #fff; }
 .legend{
-    margin-left:120px;
+    margin-left:100px;
     margin-bottom:80px;
     display:inline-block;
     border-collapse: collapse;

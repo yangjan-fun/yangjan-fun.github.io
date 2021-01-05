@@ -4,16 +4,17 @@ html, body{
   
 }
 
-header {
-    margin: 10px 20px;
+#header {
+    margin: 30px 80px;
 }
 
 #ShowBARdiv {
-    margin: 5px 20px;
+    margin: 30px 100px;
+    align-content:center
 }
 
-footer {
-    margin: 10px 20px;
+#footer {
+    margin: 30px 80px;
 }
 
 path { stroke: #fff; }
@@ -38,11 +39,11 @@ rect:hover { fill:whitesmoke; }
     border-spacing: 0px;
 }
 .legend td{
-    padding:4px 5px;
+    padding:5px 5px;
     vertical-align:bottom;
     text-align: center;
 }
 .legendFreq, .legendPerc{
     align-content:right;
-    width:70px;
+    width:auto;
 }

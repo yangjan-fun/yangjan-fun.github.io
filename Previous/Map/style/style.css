@@ -3,18 +3,9 @@
 }
 
 html, body {
-  margin: 10px;
+  margin: 20px;
   padding: 5px;
 
-}
-
-.header {
-  width: 100%;
-  margin: 0px;
-  text-align: center;
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 20pt;
-  color: whitesmoke;
 }
 
 .row {
@@ -22,17 +13,24 @@ html, body {
   display: flex;
 }
 
-#intro {
+.header {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
   margin: 0px;
-  padding-left: 80px;
-  padding-right: 80px;
-  text-align: center;
+  padding-top: 20px;
+  padding-right: 60px;
+  text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt;
   color: rgb(160, 160, 160);
+}
+
+h1 {
+  text-align: left;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20pt;
+  color: whitesmoke;
 }
 
 #container {
@@ -43,7 +41,7 @@ html, body {
   flex-direction: column;
   height: 100vh;
   margin: 0px;
-  padding: 0px;
+  padding: 0px 60px;
 }
 
 #chart {

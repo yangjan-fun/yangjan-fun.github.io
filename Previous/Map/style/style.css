@@ -28,8 +28,9 @@ html, body {
 
 h1 {
   font-family: 'Big Shoulders Stencil Text', cursive;
-  font-size: 28pt;
+  font-size: 36pt;
   color: whitesmoke;
+  padding-bottom: 20px;
 }
 
 #container {

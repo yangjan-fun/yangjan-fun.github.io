@@ -225,7 +225,7 @@ d3.select("#Score2016").on("click", function() {
     var keys = ["Southern Asia", "Central and Eastern Europe", "Middle East and Northern Africa", "Sub-Saharan Africa", "Latin America and Caribbean", "Australia and New Zealand", "Western Europe", "Southeastern Asia", "North America", "Eastern Asia"]
     var color = d3.scaleOrdinal()
         .domain(keys)
-        .range(d3.schemeSet3);
+        .range(d3.schemeTableau10);
     addLegend.selectAll(".mydots")
         .data(keys)
         .enter()

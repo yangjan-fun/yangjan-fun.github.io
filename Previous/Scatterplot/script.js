@@ -50,7 +50,7 @@ d3.csv("./data/happyscore.csv").then(function(data) {
         .domain([happyScore.min2016, happyScore.max2016])
         .range([2, 10]);
 
-    var colorScale = d3.scaleOrdinal(d3.schemeSet3);
+    var colorScale = d3.scaleOrdinal(d3.schemeTableau10);
 
     var xAxis = svg.append("g")
         .attr("transform", `translate(0,${height-margin.bottom})`)

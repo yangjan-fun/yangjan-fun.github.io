@@ -8,8 +8,6 @@ html, body {
 
 }
 
-
-
 .row {
   display: -webkit-flex;
   display: flex;
@@ -22,23 +20,22 @@ html, body {
   margin: 0px;
   padding-left: 80px;
   padding-right: 80px;
-  text-align: center;
+  text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt;
   color: rgb(160, 160, 160);
 }
 
 h1 {
-
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 20pt;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-size: 28pt;
   color: whitesmoke;
 }
 
 #container {
-  -webkit-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
   display: flex;
   flex-direction: column;
   height: 100vh;

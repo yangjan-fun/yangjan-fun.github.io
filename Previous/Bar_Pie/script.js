@@ -6,7 +6,7 @@ function ShowBAR(id, Indata){
     function histoGram(ListDepic){
         var RectG={}, 
         ColList = {parameter1: 50, parameter2: 0, parameter3: 40, parameter4: 0};
-            ColList.w = 400 - ColList.parameter4 - ColList.parameter2, 
+            ColList.w = 500 - ColList.parameter4 - ColList.parameter2, 
             ColList.h = 300 - ColList.parameter1 - ColList.parameter3;
         
         var ShowSVG = d3.select(id)

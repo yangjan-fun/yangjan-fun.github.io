@@ -240,7 +240,7 @@ d3.select("#Score2016").on("click", function() {
         .data(keys)
         .enter()
         .append("text")
-          .attr("x", 120)
+          .attr("x", 40)
           .attr("y", function(d,i){ return 20 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
           .style("fill", function(d){ return color(d)})
           .text(function(d){ return d})

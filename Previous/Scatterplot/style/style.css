@@ -94,4 +94,5 @@ button {
   background-color:rgba(97, 97, 97, 0.712);
   padding: 4px;
   pointer-events: none;
+  color: white;
 }

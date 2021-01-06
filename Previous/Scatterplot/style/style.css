@@ -35,6 +35,10 @@ html, body {
   padding: 20px 0px;
 }
 
+p{
+  line-height: 1.6;
+}
+
 button {
   padding: 12px 12px;
   border-radius: 8px;

@@ -89,7 +89,7 @@ d3.csv("./data/happyscore.csv").then(function(data) {
         .attr("class","tooltip");
 
     points.on("mouseover", function(d) {
-        var cx = +d3.select(this).attr("cx");
+        var cx = +d3.select(this).attr("cx"+300);
         var cy = +d3.select(this).attr("cy");
     
     tooltip.style("visibility","visible")

@@ -61,7 +61,7 @@ h1 {
   padding-right: 30px;
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 90%;
+  width: 95%;
 }
 
 #indicator {
@@ -80,7 +80,7 @@ h1 {
 
 .monthLabel {
   font-family: "Helvetica Neue", Helvetica, Arial, Helvetica, sans-serif;
-  font-size: 4.0em;
+  font-size: 2.5em;
   font-weight: 600;
   fill: #E2E2E2;
   cursor: default;

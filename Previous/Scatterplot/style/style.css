@@ -40,7 +40,7 @@ html, body {
   border: 2px solid #555555;
 }
 
-#Score2016,#Score2017:hover {
+#Score2016:hover,#Score2017:hover {
   background-color: #555555;
   color:white;
 }

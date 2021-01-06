@@ -28,7 +28,7 @@ html, body {
   flex: 1;
   width: 100%;
   margin: 10px;
-  text-align: center;
+  text-align: left;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 12pt;
   color: darkgrey;

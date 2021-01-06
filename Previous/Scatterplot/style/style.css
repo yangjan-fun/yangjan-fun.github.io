@@ -30,7 +30,7 @@ html, body {
   margin: 10px;
   text-align: center;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 13pt;
+  font-size: 12pt;
   color: darkgrey;
 }
 
@@ -47,7 +47,7 @@ html, body {
 
 .axisLabel {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16pt;
+  font-size: 14pt;
   font-weight: bold;
   fill: whitesmoke;
 }
@@ -59,7 +59,7 @@ html, body {
   visibility: hidden;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  font-size: 14pt;
+  font-size: 12pt;
   background-color:rgba(97, 97, 97, 0.712);
   padding: 2px;
   pointer-events: none;

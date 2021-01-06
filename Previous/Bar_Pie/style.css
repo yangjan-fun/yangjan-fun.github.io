@@ -18,12 +18,11 @@ html, body {
 
 p {
     margin: 30px 10px;
+    line-height: 1.5;
 }
 
 h1 {
     color: #377eb8;
-    line-height: 2;
-
 }
 
 

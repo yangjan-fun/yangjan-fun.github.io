@@ -36,6 +36,7 @@ html, body {
 
 p{
   line-height: 1.6;
+  padding-bottom: 20px;
 }
 
 button {
@@ -62,7 +63,7 @@ button {
 }
 
 #my_dataviz2 {
-  padding:20px 0px;
+  padding-top:30px;
 }
 
 

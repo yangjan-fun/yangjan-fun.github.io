@@ -3,7 +3,7 @@
 }
 
 html, body {
-  margin: 20px 10px;
+  margin: 20px 20px;
   padding: 10px;
 }
 
@@ -32,10 +32,11 @@ html, body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 12pt;
   color: darkgrey;
+  padding: 20px 0px;
 }
 
 button {
-  padding: 12px 18px;
+  padding: 12px 12px;
   border-radius: 8px;
   text-align: center;
   text-decoration: none;
@@ -55,6 +56,10 @@ button {
 #Score2016:hover,#Score2017:hover {
   background-color: #555555;
   color:white;
+}
+
+#my_dataviz2 {
+  padding:20px 0px;
 }
 
 

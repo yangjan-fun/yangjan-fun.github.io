@@ -3,18 +3,9 @@
 }
 
 html, body {
-  margin: 10px;
+  margin: 20px;
   padding: 5px;
 
-}
-
-h1 {
-  width: 100%;
-  margin: 0px;
-  text-align: center;
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 20pt;
-  color: whitesmoke;
 }
 
 .row {
@@ -27,12 +18,19 @@ h1 {
   -ms-flex: 1;
   flex: 1;
   margin: 0px;
-  padding-left: 80px;
+  padding-top: 80px;
   padding-right: 80px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12pt;
   color: rgb(160, 160, 160);
+}
+
+h1 {
+  text-align: left;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20pt;
+  color: whitesmoke;
 }
 
 #container {

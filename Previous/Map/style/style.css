@@ -8,7 +8,7 @@ html, body {
 
 }
 
-h1 {
+.header {
   width: 100%;
   margin: 0px;
   text-align: center;
@@ -22,7 +22,7 @@ h1 {
   display: flex;
 }
 
-.header {
+#intro {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;

@@ -230,7 +230,7 @@ d3.select("#Score2016").on("click", function() {
         .data(keys)
         .enter()
         .append("circle")
-          .attr("cx", 100)
+          .attr("cx", 20)
           .attr("cy", function(d,i){ return 20 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
           .attr("r", 7)
           .style("fill", function(d){ return color(d)})

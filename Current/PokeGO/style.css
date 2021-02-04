@@ -17,7 +17,6 @@ body {
 }
 
 header {
-    background-color: plum;
     height: 118px;
     display: flex;
     justify-content: center;

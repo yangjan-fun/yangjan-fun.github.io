@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color:black;
+    background-image: url(image/jonathan-borba-QDzL0DL8Zdo-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav {
+    background-color:rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+
+main {
+    /* background-color:#F9FAF4; */
+    height: 400px;
+    text-align:center;
+    padding-top: 60px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+footer {
+    background-color:rgba(0, 0, 0, 0.5);
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 14px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.map{
+    padding-bottom: 100px;
+}
